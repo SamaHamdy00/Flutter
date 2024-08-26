@@ -77,7 +77,7 @@ class SignUpScreen extends StatelessWidget {
               myTextForm(
                 keyboardType: TextInputType.visiblePassword,
                 labelText: 'Password',
-                icon: Icons.visibility,
+                icon: Icons.visibility_off,
               ),
               const SizedBox(height: 24),
               myTextForm(

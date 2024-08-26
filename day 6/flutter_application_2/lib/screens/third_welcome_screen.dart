@@ -86,7 +86,6 @@ class ThirdWelcomeScreen extends StatelessWidget {
                   fontWeight: FontWeight.w600,
                 ),
               ),
-              // const SizedBox(height: 16),
               mySizedBox(height: 16),
               const SizedBox(
                 width: 311,
@@ -100,7 +99,6 @@ class ThirdWelcomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              // const SizedBox(height: 16),
               mySizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
