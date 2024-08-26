@@ -1,0 +1,32 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  any_image_view: ^1.0.6
+  flutter:
+    sdk: flutter
+
+
+  flutter_svg: ^2.0.10+1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Teko
+      fonts:
+        - asset: assets/fonts/Teko-SemiBold.ttf
